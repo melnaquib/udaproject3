@@ -152,7 +152,7 @@ jobs:
           name: scan Backend Dependencies
           command: |
             cd backend
-            npm install
+            # npm install
             npm audit fix
       - slack/status
 
