@@ -152,8 +152,8 @@ jobs:
           name: scan Backend Dependencies
           command: |
             cd backend
-            # npm install
-            npm audit fix
+            npm install
+            # npm audit fix
       - slack/status
 
   deploy-infrastructure:
