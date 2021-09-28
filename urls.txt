@@ -1,5 +1,0 @@
-Url to GitHub  : https://github.com/melnaquib/udaproject3
-URL for your S3 Bucket :  http://udapeople-806d5213-b876-4ff9-9974-c58b4595c1db.s3-website-us-west-2.amazonaws.com
-URL for your CloudFront: http://d32f25kslhqi94.cloudfront.net/
-URLs to deployed application back-end : 34.222.74.8
-URL to your Prometheus Server : http://52.34.132.45:9090/
