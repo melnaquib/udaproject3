@@ -153,7 +153,7 @@ jobs:
           command: |
             cd backend
             npm install
-            npm audit fix --audit-level=critical --force
+            npm audit fix
       - slack/status
 
   deploy-infrastructure:
@@ -209,7 +209,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["90:f5:31:18:86:26:30:4b:97:b8:57:de:9c:cd:34:95"]
+          fingerprints: ["cf:5c:39:74:1a:fc:30:30:a8:4b:99:00:51:71:c5:61"]
       - attach_workspace:
           at: .
       - run:
@@ -322,7 +322,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: [90:f5:31:18:86:26:30:4b:97:b8:57:de:9c:cd:34:95]
+          fingerprints: [cf:5c:39:74:1a:fc:30:30:a8:4b:99:00:51:71:c5:61]
       - attach_workspace:
           at: .
       - run:
